@@ -11,13 +11,6 @@ import glob
 from update_check import isUpToDate
 from update_check import update
 
-print("Checking for updates")
-if isUpToDate(__file__, "https://raw.githubusercontent.com/username/repo/myProgram.py") == False:
-    print("Your program isnt updated. update? [y/n]: ")
-    if keyboard.is_pressed('y'):
-        update(__file__, "https://raw.githubusercontent.com/username/repo/myProgram.py")
-    if keyboard.is_pressed('n'):
-        break
 
    
 
@@ -102,6 +95,7 @@ def start_comm(com_port):
             
 
 def main():
+
     print("""
     1. Enter Arduino COM_PORT
     2. List COM_PORT(s) (under devlopment)
@@ -128,6 +122,24 @@ def main():
             print('\n')
             logging.info("User started function: quit()")
             quit()
-        
 
-main()
+
+
+def start():
+    print("Checking for updates")
+    if isUpToDate(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py") == False:
+        print("Your program is not up to date. Update? [y/n]")
+    
+        if keyboard.is_pressed('y'):
+            update(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py")
+            main()
+        elif keyboard.is_pressed('n'):
+            print("Update cancelled")
+            main()
+    else:
+        print("Ur program is up to date")
+        input("Press enter to continue...")
+        main()
+
+    
+        
