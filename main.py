@@ -132,6 +132,7 @@ def start():
     up_check_input = up_check.lower()
     if up_check_input == 'y':
         update(__file__,path)
+        main()
     else:
         print("Dont blame me when stuff doesnt works")
         main()
