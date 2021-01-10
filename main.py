@@ -130,8 +130,6 @@ def start():
     path = "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py"
     print("Updating for security")
     update(__file__,path)
-
-
-###updated file successfully
+    main()
     
 start()
