@@ -11,3 +11,9 @@
 01/10/2021 12:54:14 PM Arduino not connected on COM port  and baudrate 122
 01/10/2021 12:54:16 PM Starting new HTTPS connection (1): raw.githubusercontent.com:443
 01/10/2021 12:54:16 PM https://raw.githubusercontent.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/master/main.py HTTP/1.1" 200 1389
+01/10/2021 12:57:07 PM Starting new HTTPS connection (1): github.com:443
+01/10/2021 12:57:08 PM https://github.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py HTTP/1.1" 200 None
+01/10/2021 12:57:17 PM Starting new HTTPS connection (1): github.com:443
+01/10/2021 12:57:17 PM https://github.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py HTTP/1.1" 200 None
+01/10/2021 12:57:41 PM Starting new HTTPS connection (1): github.com:443
+01/10/2021 12:57:41 PM https://github.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py HTTP/1.1" 200 None

@@ -10,6 +10,7 @@ import sys
 import glob
 from update_check import isUpToDate
 from update_check import update
+from update_check import checkForUpdates
 
 
    
@@ -126,21 +127,20 @@ def main():
 
 
 def start():
-    path = "https://github.com/SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py"
+    path = "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py"
     print("Checking for updates")
-    if isUpToDate(__file__, path) == False:
-        print("Your program is not up to date. Update? [y/n]")
+    is_updated = checkForUpdates(__file__, path)
+
+    if is_updated == False:
+        print("Your Program is not updated, do you want to update? [y/n]")
         while True:
             if keyboard.is_pressed('y'):
-                update(__file__, "path")
-                main()
+                update(__file__ , path)
             elif keyboard.is_pressed('n'):
                 print("Update cancelled")
-                main()
+    
     else:
-        print("Ur program is up to date")
-        input("Press enter to continue...")
-        main()
+        print("Program is up to date")
 
     
 start()
