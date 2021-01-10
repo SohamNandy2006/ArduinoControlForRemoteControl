@@ -16,6 +16,8 @@ if isUpToDate(__file__, "https://raw.githubusercontent.com/username/repo/myProgr
     print("Your program isnt updated. update? [y/n]: ")
     if keyboard.is_pressed('y'):
         update(__file__, "https://raw.githubusercontent.com/username/repo/myProgram.py")
+    if keyboard.is_pressed('n'):
+        break
 
    
 
