@@ -128,8 +128,12 @@ def main():
 
 def start():
     path = "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py"
-    print("Updating for security")
-    update(__file__,path)
-    main()
+    up_check = input("Wanna update?\n")
+    up_check_input = up_check.lower()
+    if up_check_input == 'y':
+        update(__file__,path)
+    else:
+        print("Dont blame me when stuff doesnt works")
+        main()
     
 start()

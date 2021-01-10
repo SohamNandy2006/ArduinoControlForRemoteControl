@@ -21,3 +21,24 @@
 01/10/2021 01:02:55 PM https://raw.githubusercontent.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/master/main.py HTTP/1.1" 200 1407
 01/10/2021 01:03:30 PM Starting new HTTPS connection (1): raw.githubusercontent.com:443
 01/10/2021 01:03:31 PM https://raw.githubusercontent.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/master/main.py HTTP/1.1" 200 1407
+01/10/2021 01:13:43 PM User started function: start_comm
+01/10/2021 01:13:57 PM User started function: start_comm
+01/10/2021 01:14:00 PM Arduino not connected on COM port 1 and baudrate 66666
+01/10/2021 01:14:01 PM Arduino not connected on COM port 1 and baudrate 66666
+01/10/2021 01:14:02 PM Arduino not connected on COM port 1 and baudrate 66666
+01/10/2021 01:14:32 PM User started function: start_comm
+01/10/2021 01:14:34 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:35 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:36 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:37 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:38 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:39 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:40 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:41 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:42 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:43 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:44 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:45 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:46 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:47 PM Arduino not connected on COM port 1 and baudrate 2
+01/10/2021 01:14:48 PM Arduino not connected on COM port 1 and baudrate 2
