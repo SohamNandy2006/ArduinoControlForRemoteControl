@@ -126,12 +126,13 @@ def main():
 
 
 def start():
+    path = "https://github.com/SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py"
     print("Checking for updates")
-    if isUpToDate(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py") == False:
+    if isUpToDate(__file__, path) == False:
         print("Your program is not up to date. Update? [y/n]")
         while True:
             if keyboard.is_pressed('y'):
-                update(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py")
+                update(__file__, "path")
                 main()
             elif keyboard.is_pressed('n'):
                 print("Update cancelled")
