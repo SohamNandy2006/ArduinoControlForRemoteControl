@@ -90,7 +90,7 @@ def start_comm(com_port):
 
 
         except:
-            print(Fore.CYAN + "Error: Arduino Not connected on specified port")
+            print(Fore.RED + "Error: Arduino Not connected on specified port")
             logging.warning("Arduino not connected on COM port {} and baudrate {}".format(com_port,baudrate_user))
             time.sleep(1)
             
@@ -137,3 +137,5 @@ def start():
         main()
     
 start()
+
+
