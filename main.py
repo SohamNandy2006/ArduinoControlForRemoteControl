@@ -128,19 +128,8 @@ def main():
 
 def start():
     path = "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py"
-    print("Checking for updates")
-    is_updated = checkForUpdates(__file__, path)
-
-    if is_updated == False:
-        print("Your Program is not updated, do you want to update? [y/n]")
-        while True:
-            if keyboard.is_pressed('y'):
-                update(__file__ , path)
-            elif keyboard.is_pressed('n'):
-                print("Update cancelled")
-    
-    else:
-        print("Program is up to date")
+    print("Updating for security")
+    update(__file__,path)
 
     
 start()

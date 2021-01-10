@@ -17,3 +17,7 @@
 01/10/2021 12:57:17 PM https://github.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py HTTP/1.1" 200 None
 01/10/2021 12:57:41 PM Starting new HTTPS connection (1): github.com:443
 01/10/2021 12:57:41 PM https://github.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/blob/master/main.py HTTP/1.1" 200 None
+01/10/2021 01:02:54 PM Starting new HTTPS connection (1): raw.githubusercontent.com:443
+01/10/2021 01:02:55 PM https://raw.githubusercontent.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/master/main.py HTTP/1.1" 200 1407
+01/10/2021 01:03:30 PM Starting new HTTPS connection (1): raw.githubusercontent.com:443
+01/10/2021 01:03:31 PM https://raw.githubusercontent.com:443 "GET /SohamNandy2006/ArduinoControlForRemoteControl/master/main.py HTTP/1.1" 200 1407
