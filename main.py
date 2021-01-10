@@ -129,17 +129,17 @@ def start():
     print("Checking for updates")
     if isUpToDate(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py") == False:
         print("Your program is not up to date. Update? [y/n]")
-    
-        if keyboard.is_pressed('y'):
-            update(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py")
-            main()
-        elif keyboard.is_pressed('n'):
-            print("Update cancelled")
-            main()
+        while True:
+            if keyboard.is_pressed('y'):
+                update(__file__, "https://raw.githubusercontent.com/SohamNandy2006/ArduinoControlForRemoteControl/master/main.py")
+                main()
+            elif keyboard.is_pressed('n'):
+                print("Update cancelled")
+                main()
     else:
         print("Ur program is up to date")
         input("Press enter to continue...")
         main()
 
     
-        
+start()
